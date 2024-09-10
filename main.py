@@ -12,7 +12,6 @@ from os import getenv
 
 print("-" * 40)
 print("START")
-print("LOCAL TIME ", time.localtime())
 
 # Initalize Display Arrays
 text_list = ["LOADING"]

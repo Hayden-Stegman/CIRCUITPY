@@ -1,4 +1,6 @@
 DEBUG = True
+NUMBER_OF_TRAINS = 4
+
 def get_update_arrival_times(requests):
     latest_times_strings = []
     
@@ -32,7 +34,7 @@ def get_update_arrival_times(requests):
         formatted_time = f"{hours:02}:{minutes:02} {period}"
         latest_times_strings.append(formatted_time)
     
-    return latest_times_strings[:4]
+    return latest_times_strings[:NUMBER_OF_TRAINS]
 
 def get_mbta_data(requests):
     # Specify the URL of the MBTA API endpoint you want to query
