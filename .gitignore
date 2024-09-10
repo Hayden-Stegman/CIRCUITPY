@@ -1,0 +1,11 @@
+.vscode
+.Trashes
+.Trash-1000
+lib
+.fseventsd
+examples
+sd
+boot_out.txt
+settings.toml
+bitmap_fonts
+.metadata_never_index
